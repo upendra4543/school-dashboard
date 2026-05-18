@@ -1,5 +1,5 @@
 import Student from "../models/students.js";
-import ErrorHandler from "../utils/errorhandler.js";
+import ErrorHandler from "../utils/errorHandler.js";
 import { uploadToCloudinary } from "../utils/cloudinaryUpload.js";
 import { clearStudentCache } from "../utils/clearCache.js";
 import redisClient from "../config/redis.js";
